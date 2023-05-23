@@ -48,3 +48,29 @@ $header-bg-color: rgba(255, 255, 255, 0.95);
     }
   }
 }
+
+.button1 {
+  border-radius: 30px;
+  padding: 0 30px;
+  margin: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #f37335;
+    border: 1px solid #f37335;
+  }
+}
+
+.button2 {
+  border-radius: 30px;
+  padding: 0 30px;
+  margin: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #f37335;
+    border: 1px solid #f37335;
+  }
+}

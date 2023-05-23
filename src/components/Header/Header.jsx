@@ -44,10 +44,14 @@ function Header() {
         {user ? (
           <>
             <p className={styles["header__right--user"]}>{user.hoTen}</p>
-            <button onClick={handleLogout}>Đăng xuất</button>
+            <button className={styles.button1} onClick={handleLogout}>
+              Đăng xuất
+            </button>
           </>
         ) : (
-          <button onClick={handleSignin}>Đăng Nhập </button>
+          <button className={styles.button2} onClick={handleSignin}>
+            Đăng Nhập{" "}
+          </button>
         )}
       </div>
     </div>
